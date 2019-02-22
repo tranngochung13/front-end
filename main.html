@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Laptop Store</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/png" href="./photo/icon/logoMain.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  </head>
+
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+          <a class="navbar-brand" href="#myPage"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#myPage">Trang Chủ</a></li>
+            <li><a href="#laptop">Laptop</a></li>
+            <li><a href="#laptopdohoa">Laptop đồ họa</a></li>
+            <li><a href="#laptopgaming">Laptop gaming</a></li>
+            <li><a href="#contact">Liên hệ</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="./giohang.html">GIỏ hàng</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="./photo/giaodien2.jpg" alt="Los Angeles" width="1200" height="700">
+        </div>
+
+        <div class="item">
+          <img src="./photo/giaodien3.jpg" alt="Los Angeles" width="1200" height="700">
+        </div>
+
+        <div class="item">
+          <img src="./photo/giaodien4.jpg" alt="Los Angeles" width="1200" height="700">
+        </div>
+
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+    </div>
+    <!-- 
+
+        <!- Container (The Band Section) -->
+
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12" style="text-align: right; margin-right: -15px;">
+          <button class="btn btn-default glyphicon glyphicon-shopping-cart" data-toggle="modal" href='#modal-id' style="font-size: 20px;"></button>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="laptop" class="container text-center">
+
+      <!-- <strong style="color: red;"><h2><b>LAPTOP ĐỒ HỌA</b></h2></strong> -->
+      <div class="row">
+        <h4 style="background: aqua;"><p style="color: black;">Laptop</p></h4>
+        <div class="col-sm-4 container1">
+          <a href="#" data-toggle="collapse">
+        <img src="./photo/laptopasus/zephyrus.jpg" class="img-rounded person" alt="Random Name" width="255" height="255" class="image" >
+      </a>
+          <p><strong>Asus Zephyrus M GM501GS</strong></p>
+          <p style="color: blue;">65.000.000 <u>Đ</u></p>
+          <div class="overlay" style="width: 470px;">
+            <div class="text">
+              <p>
+                <h4>Thông tin Asus Zephyrus M GM501GS</h4>
+              </p>
+              <div style="text-align: left;">
+                <h6><b>CPU:</b> Intel, Core i7</h6>
+                <h6><b>RAM:</b> 16 GB, LPDDR3</h6>
+                <h6><b>Đĩa cứng:</b> SSH8G + SSD PCIE G3 X2, 1TB 5400rpm + 512G PCIE G3X4</h6>
+                <h6><b>Màn hình:</b> 15.6 inchs, 1920 x 1080 Pixels</h6>
+                <h6><b>Card màn hình:</b> NVIDIA Geforce GTX 1070, Card rời</h6>
+                <h6><b>Cổng kết nối:</b> LAN : 10/100/1000 Mbs, WIFI : 802.11 ac 2*2</h6>
+                <h6><b>Đèn bàn phím:</b> Có</h6>
+                <h6><b>Pin:</b> 8-cell Li-ion</h6>
+                <h6><b>Hệ điều hành:</b> Windows 10 64Bit</h6>
+                <h6><b>Thời gian bảo hành:</b> 48 tháng <button id="Zephyrus" data-name="Asus Zephyrus M GM501GS" data-price="65000000" class="add-to-cart btn btn-primary glyphicon glyphicon-shopping-cart" style="margin-top: -10px; margin-left: 10px;">    Mua</button></h6>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 container1">
+          <a href="#" data-toggle="collapse">
+        <img src="./photo/laptopasus/Zenbook.jpg" class="img-rounded person" alt="Random Name" width="255" height="255" class="image">
+      </a>
+          <p><strong>Asus Zenbook UX331UN</strong></p>
+          <p style="color: blue;">26.000.000 <u>Đ</u></p>
+          <div class="overlay" style="width: 470px;">
+            <div class="text">
+              <p>
+                <h4>Thông tin Asus Zenbook UX331UN</h4>
+              </p>
+              <div style="text-align: left;">
+                <h6><b>CPU:</b> Intel, Core™ i5</h6>
+                <h6><b>RAM:</b> 8 GB, LPDDR3</h6>
+                <h6><b>Đĩa cứng:</b> SSD, 256 GB</h6>
+                <h6><b>Màn hình:</b> 13.3 inchs, 1920 x 1080 Pixels</h6>
+                <h6><b>Card màn hình:</b> NVIDIA GEFORCE MX150 , Card rời</h6>
+                <h6><b>Cổng kết nối:</b> LAN: 10/100/1000 Mbps, WIFI: 802.11ac</h6>
+                <h6><b>Đèn bàn phím:</b> Có</h6>
+                <h6><b>Pin:</b> 4-cell Li-ion</h6>
+                <h6><b>Hệ điều hành:</b> Windows 10 64Bit</h6>
+                <h6><b>Thời gian bảo hành:</b> 24 tháng <button id="Zenbook" data-name="Asus Zenbook UX331UN" data-price="26000000" class="add-to-cart btn btn-primary glyphicon glyphicon-shopping-cart" style="margin-top: -10px; margin-left: 10px;">    Mua</button></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 container1">
+          <a href="#" data-toggle="collapse">
+        <img src="./photo/laptopdell/ins.jpg" class="img-rounded person" alt="Random Name" width="255" height="255" class="image">
+      </a>
+          <p><strong>Dell Ins N7370/i5-8250U</strong></p>
+          <p style="color: blue;">25.950.000 <u>Đ</u></p>
+          <div class="overlay" style="width: 470px;">
+            <div class="text">
+              <p>
+                <h4>Thông tin Dell Ins N7370/i5-8250U</h4>
+              </p>
+              <div style="text-align: left;">
+                <h6><b>CPU:</b> Intel, Core™ i5</h6>
+                <h6><b>RAM:</b> 8 GB, DDR4</h6>
+                <h6><b>Đĩa cứng:</b> Solid State Drive, 256 GB</h6>
+                <h6><b>Màn hình:</b> 13.3 inchs FHD, 1920 x 1080 Pixels</h6>
+                <h6><b>Card màn hình:</b> Intel(R) UHD Graphics 620, Onboard</h6>
+                <h6><b>Cổng kết nối:</b> LAN: Không, WIFI: 802.11AC</h6>
+                <h6><b>Đèn bàn phím:</b> Không </h6>
+                <h6><b>Loại pin:</b> 5 Cell</h6>
+                <h6><b>Hệ điều hành:</b> Windows 10 Home-HE (64bit) Single Language English</h6>
+                <h6><b>Thời gian bảo hành:</b> 12 tháng <button id="Ins" data-name="Dell Ins N7370/i5-8250U" data-price="25950000" class="add-to-cart btn btn-primary glyphicon glyphicon-shopping-cart" style="margin-top: -10px; margin-left: 10px;">    Mua</button></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 container1">
+          <a href="#" data-toggle="collapse">
+        <img src="./photo/laptopdell/xps.jpg" class="img-rounded person" alt="Random Name" width="255" height="255" class="image">
+      </a>
+          <p><strong>Dell XPS15/i7-8750H</strong></p>
+          <p style="color: blue;">50.000.000 <u>Đ</u></p>
+          <div class="overlay" style="width: 470px;">
+            <div class="text">
+              <p>
+                <h4>Thông tin Dell XPS15/i7-8750H</h4>
+              </p>
+              <div style="text-align: left;">
+                <h6><b>CPU:</b> Intel , Core i7</h6>
+                <h6><b>RAM:</b> 16 GB, DDR4</h6>
+                <h6><b>Đĩa cứng:</b> SSD PCLE, 512 GB</h6>
+                <h6><b>Màn hình:</b> 15.6 inchs, 1920 x 1080 Pixels</h6>
+                <h6><b>Card màn hình:</b> NVIDIA GEFORCE GTX 1050 4GB GDDR5, Card rời</h6>
+                <h6><b>Cổng kết nối:</b> LAN : 10/100/1000, WIFI : 802.11ac Dual Band</h6>
+                <h6><b>Đèn bàn phím:</b> Có </h6>
+                <h6><b>Loại pin:</b> 6 Cell</h6>
+                <h6><b>Hệ điều hành:</b> Windows 10 Home Plus</h6>
+                <h6><b>Thời gian bảo hành:</b> 36 tháng <button id="XPS15" data-name="Dell XPS15/i7-8750H" data-price="50000000" class="add-to-cart btn btn-primary glyphicon glyphicon-shopping-cart" style="margin-top: -10px; margin-left: 10px;">    Mua</button></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 container1">
+          <a href="#" data-toggle="collapse">
+        <img src="./photo/laptophp/pavilion.jfif" class="img-rounded person" alt="Random Name" width="255" height="255" class="image">
+      </a>
+          <p><strong>HP Pavilion Power 15</strong></p>
+          <p style="color: blue;">29.000.000 <u>Đ</u></p>
+          <div class="overlay" style="width: 470px;">
+            <div class="text">
+              <p>
+                <h4>Thông tin HP Pavilion Power 15</h4>
+              </p>
+              <div style="text-align: left;">
+                <h6><b>CPU:</b> intel, Core i7</h6>
+                <h6><b>RAM:</b> 8 GB, DDR4</h6>
+                <h6><b>Đĩa cứng:</b> SSD + HDD, 128 GB + 1 TB</h6>
+                <h6><b>Màn hình:</b> 15.6 inchs, 1920 x 1080 Pixels</h6>
+                <h6><b>Card màn hình:</b> NVIDIA® GeForce® GTX 1050Ti , Card rời</h6>
+                <h6><b>Cổng kết nối:</b> LAN : Integrated 10/100/1000 GbE LAN, WIFI : Intel® Wireless-AC 9560 802.11a/b/g/n/ac (2x2)</h6>
+                <h6><b>Đèn bàn phím:</b> Có </h6>
+                <h6><b>Loại pin:</b> 4 Cell</h6>
+                <h6><b>Hệ điều hành:</b> Windows 10 Home Single Language 64</h6>
+                <h6><b>Thời gian bảo hành:</b> 24 tháng <button id="XPS15" data-name="Dell XPS15/i7-8750H" data-price="50000000" class="add-to-cart btn btn-primary glyphicon glyphicon-shopping-cart" style="margin-top: -10px; margin-left: 10px;">    Mua</button></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 container1">
+          <a href="#" data-toggle="collapse">
+        <img src="./photo/laptophp/37tx.jfif" class="img-rounded person" alt="Random Name" width="255" height="255" class="image">
+      </a>
+          <p><strong>HP 15-da0037TX</strong></p>
+          <p style="color: blue;">11.000.000 <u>Đ</u></p>
+          <div class="overlay" style="width: 470px;">
+            <div class="text">
+              <p>
+                <h4>Thông tin HP 15-da0037TX</h4>
+              </p>
+              <div style="text-align: left;">
+                <h6><b>CPU:</b> intel, Core i3</h6>
+                <h6><b>RAM:</b> 4 GB, DDR4</h6>
+                <h6><b>Đĩa cứng:</b> HDD, 500 GB</h6>
+                <h6><b>Màn hình:</b> 15.6 inchs, 1366 x 768 pixels</h6>
+                <h6><b>Card màn hình:</b> NVIDIA® GeForce® MX110, Card rời</h6>
+                <h6><b>Cổng kết nối:</b> LAN : Integrated 10/100/1000 GbE LAN, WIFI : 802.11b/g/n (1x1)</h6>
+                <h6><b>Đèn bàn phím:</b> Không </h6>
+                <h6><b>Loại pin:</b> 4 Cell</h6>
+                <h6><b>Hệ điều hành:</b> Windows 10 Home Single Language 64</h6>
+                <h6><b>Thời gian bảo hành:</b> 12 tháng <button id="37TX" data-name="HP 15-da0037TX" data-price="11000000" class="add-to-cart btn btn-primary glyphicon glyphicon-shopping-cart" style="margin-top: -10px; margin-left: 10px;">    Mua</button></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="laptopdohoa" class="container text-center">
+      <!--  <h2 style="color: red;"><b>LAPTOP GAMING</b></h2> -->
+      <div class="row">
+        <h4 style="background: aqua;">Laptop đồ họa</h4>
+        <div class="col-sm-4 container1">
+          <a href="#" data-toggle="collapse">
+      <img src="./photo/dohoa/f560ud.jpg" class="img-rounded person" alt="Random Name" width="255" height="255" class="image">
+    </a>
+          <p><strong>Asus F560UD-BQ055T</strong></p>
+          <p style="color: blue;">17.000.000 <u>Đ</u></p>
+          <div class="overlay" style="width: 470px;">
+            <div class="text">
+              <p>
+                <h4>Thông tin Asus F560UD-BQ055T</h4>
+              </p>
+              <div style="text-align: left;">
+                <h6><b>CPU:</b> Intel, Core i5</h6>
+                <h6><b>RAM:</b> 8 GB, LPDDR3</h6>
+                <h6><b>Đĩa cứng:</b> HDD, 1 TB</h6>
+                <h6><b>Màn hình:</b> 15.6 inchs, 1920 x 1080 Pixels</h6>
+                <h6><b>Card màn hình:</b> NVIDIA GeForce GTX 1050, Card rời</h6>
+                <h6><b>Cổng kết nối:</b> LAN: Không, WIFI: 802.11ac+(Dual band) 1*1</h6>
+                <h6><b>Đèn bàn phím:</b> Không</h6>
+                <h6><b>Pin:</b> 4-cell Li-ion</h6>
+                <h6><b>Hệ điều hành:</b> Windows 10 64Bit</h6>
+                <h6><b>Thời gian bảo hành:</b> 12 tháng <button id="F560UD" data-name="Asus F560UD-BQ055T" data-price="17000000" class="add-to-cart btn btn-primary glyphicon glyphicon-shopping-cart" style="margin-top: -10px; margin-left: 10px;">    Mua</button></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 container1">
+          <a href="#" data-toggle="collapse">
+      <img src="./photo/dohoa/tuf.jpg" class="img-rounded person" alt="Random Name" width="255" height="255" class="image">
+    </a>
+          <p><strong>Asus TUF FX504GD-E4571T</strong></p>
+          <p style="color: blue;">22.000.000 <u>Đ</u></p>
+          <div class="overlay" style="width: 470px;">
+            <div class="text">
+              <p>
+                <h4>Thông tin Asus TUF FX504GD-E4571T</h4>
+              </p>
+              <div style="text-align: left;">
+                <h6><b>CPU:</b> Intel, Core i5</h6>
+                <h6><b>RAM:</b> 8 GB, DDR4</h6>
+                <h6><b>Đĩa cứng:</b> HDD, 1 TB</h6>
+                <h6><b>Màn hình:</b> 15.6 inchs, 1920 x 1080 Pixels</h6>
+                <h6><b>Card màn hình:</b> NVIDIA Geforce GTX 1050, Card rời</h6>
+                <h6><b>Cổng kết nối:</b> LAN: 10/100/1000 Mbs, WIFI: 802.11 ac 2*2</h6>
+                <h6><b>Đèn bàn phím:</b> Không</h6>
+                <h6><b>Pin:</b> 4-cell Li-ion</h6>
+                <h6><b>Hệ điều hành:</b> Windows 10 64Bit</h6>
+                <h6><b>Thời gian bảo hành:</b> 24 tháng <button id="TUF" data-name="Asus TUF FX504GD-E4571T" data-price="22000000" class="add-to-cart btn btn-primary glyphicon glyphicon-shopping-cart" style="margin-top: -10px; margin-left: 10px;">    Mua</button></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 container1">
+          <a href="#" data-toggle="collapse">
+      <img src="./photo/dohoa/n7588.jpg" class="img-rounded person" alt="Random Name" width="255" height="255" class="image">
+    </a>
+          <p><strong>Dell Inspiron N7588</strong></p>
+          <p style="color: blue;">26.000.000 <u>Đ</u></p>
+          <div class="overlay" style="width: 470px;">
+            <div class="text">
+              <p>
+                <h4>Thông tin Dell Inspiron N7588</h4>
+              </p>
+              <div style="text-align: left;">
+                <h6><b>CPU:</b> Intel, Core i7</h6>
+                <h6><b>RAM:</b> 8 GB, DDR4</h6>
+                <h6><b>Đĩa cứng:</b> HDD + SSD, 1 TB + 128 GB</h6>
+                <h6><b>Màn hình:</b> 15.6 inchs, 1920 x 1080 Pixels</h6>
+                <h6><b>Card màn hình:</b> NVIDIA Geforce GTX 1050, Card rời</h6>
+                <h6><b>Cổng kết nối:</b> LAN: 10/100/1000 Mbs, WIFI: 802.11 ac 2*2</h6>
+                <h6><b>Đèn bàn phím:</b> Không</h6>
+                <h6><b>Pin:</b> 4-cell Li-ion</h6>
+                <h6><b>Hệ điều hành:</b> Windows 10 64Bit</h6>
+                <h6><b>Thời gian bảo hành:</b> 36 tháng <button id="Inspiron" data-name="Dell Inspiron N7588" data-price="26000000" class="add-to-cart btn btn-primary glyphicon glyphicon-shopping-cart" style="margin-top: -10px; margin-left: 10px;">    Mua</button></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 container1">
+          <a href="#" data-toggle="collapse">
+      <img src="./photo/dohoa/Vivobook.jpg" class="img-rounded person" alt="Random Name" width="255" height="255" class="image">
+    </a>
+          <p><strong>Asus Vivobook S14 S410UA</strong></p>
+          <p style="color: blue;">16.000.000 <u>Đ</u></p>
+          <div class="overlay" style="width: 470px;">
+            <div class="text">
+              <p>
+                <h4>Thông tin Asus Vivobook S14 S410UA</h4>
+              </p>
+              <div style="text-align: left;">
+                <h6><b>CPU:</b> Intel, Core i5</h6>
+                <h6><b>RAM:</b> 4 GB, DDR4</h6>
+                <h6><b>Đĩa cứng:</b> HDD, 1 TB</h6>
+                <h6><b>Màn hình:</b> 14 inch, 1920 x 1080 Pixels</h6>
+                <h6><b>Card màn hình:</b> Intel UHD Graphics, Tích hợp</h6>
+                <h6><b>Cổng kết nối:</b> LAN: 10/100/1000 Mbs, WIFI: 802.11 ac 2*2</h6>
+                <h6><b>Đèn bàn phím:</b> Không</h6>
+                <h6><b>Pin:</b> 4-cell Li-ion</h6>
+                <h6><b>Hệ điều hành:</b> Windows 10 64Bit</h6>
+                <h6><b>Thời gian bảo hành:</b> 6 tháng <button id="Vivobook" data-name="Asus Vivobook S14 S410UA" data-price="16000000" class="add-to-cart btn btn-primary glyphicon glyphicon-shopping-cart" style="margin-top: -10px; margin-left: 10px;">    Mua</button></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 container1">
+          <a href="#" data-toggle="collapse">
+      <img src="./photo/dohoa/envy.jpg" class="img-rounded person" alt="Random Name" width="255" height="255" class="image">
+    </a>
+          <p><strong>HP ENVY 13-ad075TU</strong></p>
+          <p style="color: blue;">20.000.000 <u>Đ</u></p>
+          <div class="overlay" style="width: 470px;">
+            <div class="text">
+              <p>
+                <h4>Thông tin HP ENVY 13-ad075TU</h4>
+              </p>
+              <div style="text-align: left;">
+                <h6><b>CPU:</b> Intel, Core i5</h6>
+                <h6><b>RAM:</b> 4 GB, LPDDR3</h6>
+                <h6><b>Đĩa cứng:</b> SSD, 256 GB</h6>
+                <h6><b>Màn hình:</b> 13.3 inch, 1920 x 1080 pixels</h6>
+                <h6><b>Card màn hình:</b> Intel HD Graphics 620, Tích hợp</h6>
+                <h6><b>Cổng kết nối:</b> LAN: 10/100/1000 Mbs, WIFI: 802.11 ac 2*2</h6>
+                <h6><b>Đèn bàn phím:</b> Không</h6>
+                <h6><b>Pin:</b> 4-cell Li-ion</h6>
+                <h6><b>Hệ điều hành:</b> Windows 10 64Bit</h6>
+                <h6><b>Thời gian bảo hành:</b> 12 tháng <button id="ENVY" data-name="HP ENVY 13-ad075TU" data-price="20000000" class="add-to-cart btn btn-primary glyphicon glyphicon-shopping-cart" style="margin-top: -10px; margin-left: 10px;">    Mua</button></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 container1">
+          <a href="#" data-toggle="collapse">
+      <img src="./photo/dohoa/N3467.jpg" class="img-rounded person" alt="Random Name" width="255" height="255" class="image">
+    </a>
+          <p><strong>Dell Ins N3467/i5-7200U</strong></p>
+          <p style="color: blue;">20.000.000 <u>Đ</u></p>
+          <div class="overlay" style="width: 470px;">
+            <div class="text">
+              <p>
+                <h4>Thông tin Dell Ins N3467/i5-7200U</h4>
+              </p>
+              <div style="text-align: left;">
+                <h6><b>CPU:</b> Intel, Core i5</h6>
+                <h6><b>RAM:</b> 4 GB, DDR4</h6>
+                <h6><b>Đĩa cứng:</b> HDD, 1000 GB</h6>
+                <h6><b>Màn hình:</b> 14 inch, 1366 x 768 pixels</h6>
+                <h6><b>Card màn hình:</b> Intel HD Graphics 620, Tích hợp</h6>
+                <h6><b>Cổng kết nối:</b> LAN: 10/100/1000 Mbs, WIFI: 802.11 ac 2*2</h6>
+                <h6><b>Đèn bàn phím:</b> Không</h6>
+                <h6><b>Pin:</b> 4-cell Li-ion</h6>
+                <h6><b>Hệ điều hành:</b> Windows 10 64Bit</h6>
+                <h6><b>Thời gian bảo hành:</b> 6 tháng <button id="N3467" data-name="Dell Ins N3467/i5-7200U" data-price="20000000" class="add-to-cart btn btn-primary glyphicon glyphicon-shopping-cart" style="margin-top: -10px; margin-left: 10px;">    Mua</button></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="laptopgaming" class="container text-center">
+      <div class="row">
+        <h4 style="background: aqua;">Laptop Gaming</h4>
+        <div class="col-sm-4 container1">
+          <a href="#" data-toggle="collapse">
+      <img src="./photo/gaming/pavilion.jpg" class="img-rounded person" alt="Random Name" width="255" height="255" class="image">
+    </a>
+          <p><strong>HP Pavilion Power 15</strong></p>
+          <p style="color: blue;">30.000.000 <u>Đ</u></p>
+          <div class="overlay" style="width: 470px;">
+            <div class="text">
+              <p>
+                <h4>Thông tin HP Pavilion Power 15</h4>
+              </p>
+              <div style="text-align: left;">
+                <h6><b>CPU:</b> Intel, Core i7</h6>
+                <h6><b>RAM:</b> 8 GB, DDR4</h6>
+                <h6><b>Đĩa cứng:</b> SSD + HDD, 128 GB + 1 TB</h6>
+                <h6><b>Màn hình:</b> 15.6 inchs, 1920 x 1080 Pixels</h6>
+                <h6><b>Card màn hình:</b> NVIDIA® GeForce® GTX 1050Ti , Card rời</h6>
+                <h6><b>Cổng kết nối:</b> LAN: Integrated 10/100/1000 GbE LAN, WIFI: Intel® Wireless-AC 9560 802.11a/b/g/n/ac (2x2)</h6>
+                <h6><b>Đèn bàn phím:</b> Có</h6>
+                <h6><b>Pin:</b> 8-cell Li-ion</h6>
+                <h6><b>Hệ điều hành:</b> Windows 10 Home Single Language 64</h6>
+                <h6><b>Thời gian bảo hành:</b> 48 tháng <button id="Power15" data-name="HP Pavilion Power 15" data-price="30000000" class="add-to-cart btn btn-primary glyphicon glyphicon-shopping-cart" style="margin-top: -10px; margin-left: 10px;">    Mua</button></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 container1">
+          <a href="#" data-toggle="collapse">
+      <img src="./photo/gaming/tuf.jpg" class="img-rounded person" alt="Random Name" width="255" height="255" class="image">
+    </a>
+          <p><strong>Asus TUF FX504GE-E4059T</strong></p>
+          <p style="color: blue;">26.000.000 <u>Đ</u></p>
+          <div class="overlay" style="width: 470px;">
+            <div class="text">
+              <p>
+                <h4>Thông tin Asus TUF FX504GE-E4059T</h4>
+              </p>
+              <div style="text-align: left;">
+                <h6><b>CPU:</b> Intel, Core i7</h6>
+                <h6><b>RAM:</b> 8 GB, DDR4</h6>
+                <h6><b>Đĩa cứng:</b> HDD, 1TB 5400RPM SATA HDD (FireCuda)</h6>
+                <h6><b>Màn hình:</b> 15.6 inchs, 1920 x 1080 Pixels</h6>
+                <h6><b>Card màn hình:</b> NVIDIA GeForce GTX 1050Ti, Card rời</h6>
+                <h6><b>Cổng kết nối:</b> LAN: Integrated 10/100/1000 GbE LAN, WIFI: Intel® Wireless-AC 9560 802.11a/b/g/n/ac (2x2)</h6>
+                <h6><b>Đèn bàn phím:</b> Có</h6>
+                <h6><b>Pin:</b> 8-cell Li-ion</h6>
+                <h6><b>Hệ điều hành:</b> Windows 10 Home SL</h6>
+                <h6><b>Thời gian bảo hành:</b> 36 tháng <button id="E4059T" data-name="Asus TUF FX504GE-E4059T" data-price="26000000" class="add-to-cart btn btn-primary glyphicon glyphicon-shopping-cart" style="margin-top: -10px; margin-left: 10px;">    Mua</button></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 container1">
+          <a href="#" data-toggle="collapse">
+      <img src="./photo/gaming/N7370.jpg" class="img-rounded person" alt="Random Name" width="255" height="255" class="image">
+    </a>
+          <p><strong>Dell Ins N7370/i5-8250U</strong></p>
+          <p style="color: blue;">25.000.000 <u>Đ</u></p>
+          <div class="overlay" style="width: 470px;">
+            <div class="text">
+              <p>
+                <h4>Thông tin Dell Ins N7370/i5-8250U</h4>
+              </p>
+              <div style="text-align: left;">
+                <h6><b>CPU:</b> Intel, Core i5</h6>
+                <h6><b>RAM:</b> 8 GB, DDR4</h6>
+                <h6><b>Đĩa cứng:</b> Solid State Drive, 256 GB</h6>
+                <h6><b>Màn hình:</b> 13.3 inchs FHD, 1920 x 1080 Pixels</h6>
+                <h6><b>Card màn hình:</b> NVIDIA GeForce GTX 1050Ti, Card rời</h6>
+                <h6><b>Cổng kết nối:</b> LAN: Integrated 10/100/1000 GbE LAN, WIFI: Intel® Wireless-AC 9560 802.11a/b/g/n/ac (2x2)</h6>
+                <h6><b>Đèn bàn phím:</b> Có</h6>
+                <h6><b>Pin:</b> 6-cell Li-ion</h6>
+                <h6><b>Hệ điều hành:</b> Windows 10 Home-HE (64bit) Single Language English</h6>
+                <h6><b>Thời gian bảo hành:</b> 36 tháng <button id="N7370" data-name="Dell Ins N7370/i5-8250U" data-price="25000000" class="add-to-cart btn btn-primary glyphicon glyphicon-shopping-cart" style="margin-top: -10px; margin-left: 10px;">    Mua</button></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 container1">
+          <a href="#" data-toggle="collapse">
+      <img src="./photo/gaming/Power.jpg" class="img-rounded person" alt="Random Name" width="255" height="255" class="image">
+    </a>
+          <p><strong>HP Pavilion Power 15-8300H</strong></p>
+          <p style="color: blue;">24.000.000 <u>Đ</u></p>
+          <div class="overlay" style="width: 470px;">
+            <div class="text">
+              <p>
+                <h4>Thông tin HP Pavilion Power 15-8300H</h4>
+              </p>
+              <div style="text-align: left;">
+                <h6><b>CPU:</b> Intel, Core i5</h6>
+                <h6><b>RAM:</b> 8 GB, DDR4</h6>
+                <h6><b>Đĩa cứng:</b> HDD, 1 TB 7200 rpm</h6>
+                <h6><b>Màn hình:</b> 15.6 inchs, 1920 x 1080 Pixels</h6>
+                <h6><b>Card màn hình:</b> NVIDIA GEFORCE GTX 1050, Card rời</h6>
+                <h6><b>Cổng kết nối:</b> LAN: Integrated 10/100/1000 GbE LAN, WIFI: Intel® Wireless-AC 9560 802.11a/b/g/n/ac (2x2)</h6>
+                <h6><b>Đèn bàn phím:</b> Có</h6>
+                <h6><b>Pin:</b> 8-cell Li-ion</h6>
+                <h6><b>Hệ điều hành:</b> Windows 10 Home SL</h6>
+                <h6><b>Thời gian bảo hành:</b> 24 tháng <button id="8300H" data-name="HP Pavilion Power 15-8300H" data-price="24000000" class="add-to-cart btn btn-primary glyphicon glyphicon-shopping-cart" style="margin-top: -10px; margin-left: 10px;">    Mua</button></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 container1">
+          <a href="#" data-toggle="collapse">
+      <img src="./photo/gaming/Zenbook.jpg" class="img-rounded person" alt="Random Name" width="255" height="255" class="image">
+    </a>
+          <p><strong>Asus Zenbook UX331UN</strong></p>
+          <p style="color: blue;">23.000.000 <u>Đ</u></p>
+          <div class="overlay" style="width: 470px;">
+            <div class="text">
+              <p>
+                <h4>Thông tin Asus Zenbook UX331UN</h4>
+              </p>
+              <div style="text-align: left;">
+                <h6><b>CPU:</b> Intel, Core i5</h6>
+                <h6><b>RAM:</b> 8 GB, LPDDR3</h6>
+                <h6><b>Đĩa cứng:</b> SSD, 256 GB</h6>
+                <h6><b>Màn hình:</b> 13.3 inchs, 1920 x 1080 Pixels</h6>
+                <h6><b>Card màn hình:</b> NVIDIA GeForce GTX 1050Ti, Card rời</h6>
+                <h6><b>Cổng kết nối:</b> LAN: Integrated 10/100/1000 GbE LAN, WIFI: Intel® Wireless-AC 9560 802.11a/b/g/n/ac (2x2)</h6>
+                <h6><b>Đèn bàn phím:</b> Có</h6>
+                <h6><b>Pin:</b> 6-cell Li-ion</h6>
+                <h6><b>Hệ điều hành:</b> Windows 10 (64bit)</h6>
+                <h6><b>Thời gian bảo hành:</b> 24 tháng <button id="UX331UN" data-name="Asus Zenbook UX331UN" data-price="23000000" class="add-to-cart btn btn-primary glyphicon glyphicon-shopping-cart" style="margin-top: -10px; margin-left: 10px;">    Mua</button></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4 container1">
+          <a href="#" data-toggle="collapse">
+      <img src="./photo/gaming/N5379.jpg" class="img-rounded person" alt="Random Name" width="255" height="255" class="image">
+    </a>
+          <p style="margin-left: 0px;"><strong>Dell INS N5379</strong></p>
+          <p style="color: blue;">20.000.000 <u>Đ</u></p>
+          <div class="overlay" style="width: 470px;">
+            <div class="text">
+              <p>
+                <h4>Thông tin Dell INS N5379</h4>
+              </p>
+              <div style="text-align: left;">
+                <h6><b>CPU:</b> Intel, Core i5</h6>
+                <h6><b>RAM:</b> 8 GB, DDR4</h6>
+                <h6><b>Đĩa cứng:</b> HDD SATA3 (5400rpm), 1000 GB</h6>
+                <h6><b>Màn hình:</b> 13.3 inchs, 1920 x 1080 Pixels</h6>
+                <h6><b>Card màn hình:</b> intel UHD Graphics 620 , Tích hợp</h6>
+                <h6><b>Cổng kết nối:</b> LAN: Integrated 10/100/1000 GbE LAN, WIFI: Intel® Wireless-AC 9560 802.11a/b/g/n/ac (2x2)</h6>
+                <h6><b>Đèn bàn phím:</b> Có</h6>
+                <h6><b>Pin:</b> 6-cell Li-ion</h6>
+                <h6><b>Hệ điều hành:</b> Windows 10 Home Single Language 64-BIT</h6>
+                <h6><b>Thời gian bảo hành:</b> 24 tháng <button id="N5379" data-name="Dell INS N5379" data-price="20000000" class="add-to-cart btn btn-primary glyphicon glyphicon-shopping-cart" style="margin-top: -10px; margin-left: 10px;">    Mua</button></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Container (Contact Section) -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-right">
+          <div class="modal fade" id="modal-id">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title">Giỏ hàng</h4>
+                </div>
+                <div class="modal-body">
+                  <div class="wrapper">
+                    <h1 style="text-align: center;">Sản phẩm</h1>
+                    <div class="row">
+                      <table class="table table-bordered" id="table-products" › <thead>
+                        <tr>
+                          <th></th>
+                          <th></th>
+                          <th></th>
+                          <th></th>
+                          <th></th>
+                        </tr>
+                        </thead>
+                        <thead>
+                          <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                          </tr>
+                        </thead>
+                        <tbody></tbody>
+                      </table>
+                    </div>
+                    <div>
+                      <button class="btn btn-lg btn-success" id="button-clear">Clear</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="text-center">
+      <div id="contact" class="container">
+        <h3 class="text-center">Liên hệ</h3>
+        <p class="text-center"><em>**************</em></p>
+
+        <div class="row">
+          <div class="col-md-4">
+            <p><span class="glyphicon glyphicon-map-marker"></span>Địa chỉ: 101B Lê Hữu Trác, Quận Sơn Trà, TP.Đà Nẵng, Việt Nam</p>
+            <p><span class="glyphicon glyphicon-phone"></span> Phone: 0342713011(Kiệt)</p>
+            <p><span class="glyphicon glyphicon-phone"></span> Phone: 0965243205(Hùng)</p>
+            <p><span class="glyphicon glyphicon-envelope"></span> Email: kiet.alang@student.passerellesnumeriques.org</p>
+            <p><span class="glyphicon glyphicon-envelope"></span> Email: hung.tran.ngoc@student.passerellesnumeriques.org</p>
+          </div>
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-sm-6 form-group">
+                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+              </div>
+              <div class="col-sm-6 form-group">
+                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+              </div>
+            </div>
+            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+            <br>
+            <div class="row">
+              <div class="col-md-12 form-group">
+                <button class="btn pull-right" type="submit">Send</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+    </footer>
+
+    <script>
+      //giỏ hàng
+      var shopCart = [];
+
+      $(document).ready(function() {
+        if (sessionStorage["shopping-cart-items"] != null) {
+          shopCart = JSON.parse(sessionStorage["shopping-cart-items"].toString());
+        }
+        displayShoppingCart();
+      });
+
+      $(".add-to-cart").click(function() {
+        var button = $(this);
+        var id = button.attr("id");
+        var name = button.attr("data-name");
+        var price = button.attr("data-price");
+        var quantity = 1;
+
+        var item = {
+          id: id,
+          name: name,
+          price: price,
+          quantity: quantity
+        };
+
+        var exists = false;
+        if (shopCart.length > 0) {
+          $.each(shopCart, function(index, value) {
+            if (value.id == item.id) {
+              value.quantity++;
+              exists = true;
+              return false;
+            }
+          });
+        }
+        if (!exists) {
+          shopCart.push(item);
+        }
+        sessionStorage["shopping-cart-items"] = JSON.stringify(shopCart);
+        displayShoppingCart();
+      });
+
+      //xóa
+      $("#button-clear").click(function() {
+        shopCart = [];
+        sessionStorage["shopping-cart-items"] = JSON.stringify(shopCart);
+        $("#table-products > tbody").html("");
+      });
+
+
+      //hiển thị
+      function displayShoppingCart() {
+        if (sessionStorage["shopping-cart-items"] != null) {
+          shopCart = JSON.parse(sessionStorage["shopping-cart-items"].toString());
+
+          $("#table-products > tbody").html("");
+          $.each(shopCart, function(index, item) {
+            var htmlString = "";
+            htmlString += "<tr>";
+            htmlString += "<td>" + item.id + "</td>";
+            htmlString += "<td>" + item.name + "</td>";
+            htmlString += "<td style='text-align: right'>" + item.price + "</td>";
+            htmlString += "<td style='text-align: right'>" + item.quantity + "</td>";
+            htmlString += "<td style='text-align: right'>" + item.price * item.quantity + "</td>";
+            htmlString += "</tr>";
+
+            $("#table-products > tbody:last").append(htmlString);
+          });
+        }
+      }
+      //kết thúc giỏ hàng
+
+      $(document).ready(function() {
+        // Initialize Tooltip
+        $('[data-toggle="tooltip"]').tooltip();
+
+        // Add smooth scrolling to all links in navbar + footer link
+        $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 900, function() {
+
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+      })
+
+    </script>
+
+  </body>
+
+</html>
